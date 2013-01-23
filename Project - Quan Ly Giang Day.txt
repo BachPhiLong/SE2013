@@ -1,0 +1,30 @@
+﻿MÔ TẢ YÊU CẦU CHƯƠNG TRÌNH QUẢN LÝ PHÂN CÔNG GIẢNG DẠY 
+Người soạn: Nguyễn Phương Thái
+Phục vụ xây dựng chương trình quản lý PCGD cho Khoa CNTT 
+Tháng 1/2013 
+
+
+1. Đối tượng sử dụng 
+Ban CN Khoa, chuyên viên VP Khoa, các CN Bộ môn.
+
+2. Chức năng 
+- Quản lý người sử dụng: ngoài admin ra thì người dùng có quyền như nhau (vì mọi sửa đổi đều được lưu vết) 
+- Quản lý thông tin môn học: tên môn, mã môn, số tín chỉ, khung chương trình môn thuộc về, môn bắt buộc hay tự chọn, v.v. 
+- Quản lý khung chương trình: tên chương trình, số tín chỉ tích luỹ, v.v.
+- Quản lý giảng viên: tên giảng viên, bộ môn, môn học phụ trách, môn học có thể giảng dạy, v.v. (có thể có cả giảng viên mời)
+- Phân công giảng dạy: ai dạy môn gì, kỳ nào, sĩ số lớp bao nhiêu, v.v. trong quá trình phân công có thể kiểm tra được dự kiến phân công hiện tại có đảm bảo đủ giờ dạy của GV không. 
+- Thống kê giờ dạy: việc tính này có thể vào giữa năm (phục vụ phân loại thi đua) hoặc cuối năm (phục vụ phân loại ABC)  
+
+3. Qui trình phân công giảng dạy bậc đại học 
+- Phòng đào tạo đưa ra danh sách môn học dự kiến mở lớp, số SV dự kiến đăng ký. Danh sách này được xây dựng dựa trên tiến trình học tập cụ thể của các lớp và tiến trình theo chương trình đào tạo. 
+- Dựa trên danh sách trên, Khoa thông báo các chủ nhiệm bộ môn phân công 
+- Sau khi có kết quả phân từ CNBM, Khoa rà soát xem có gì bất hợp lý không (ví dụ người dạy nhiều quá, người dạy ít quá, v.v.) và sửa đổi có thông qua CNBM, các môn do Khoa phụ trách thì Khoa sẽ phân, cân đối phân công giảng dạy thực hành.
+- Kết quả PCGD của Khoa được gửi lại cho PĐT để PĐT lập TKB dự kiến 
+- PĐT công bố TKB dự kiến
+- Khoa thu nhận phản hồi của GV về đề nghị sửa đổi PCGD, tập hợp lại và đề xuất xuống PĐT
+- PĐT điều chỉnh TKB và công bố TKB chính thức 
+
+Hệ tại chức cũng được phân công tương tự như vậy nhưng thường không có bước đưa ra TKB dự kiến, thu nhận phản hồi về điều chỉnh PCGD của GV. 
+
+Bên cạnh đó cũng có các yêu cầu giảng dạy THCS của bên Luật, bên Kinh tế, dựa vào công văn đó Khoa phân công và gửi PĐT. Cũng không có bước công bố TKB dự kiến, thu nhận phản hồi về điều chỉnh PCGD của GV.
+
